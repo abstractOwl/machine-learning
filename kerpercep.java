@@ -198,7 +198,7 @@ public class kerpercep {
 				int y_j = j < posEntries ? 1 : -1;
 				sum += alpha[j] * y_j * K(Y.getRow(i), X.getRow(j));
 			}
-			if (y_i * sum <= 0) {
+			if (y_i * sum >= 0) {
 				falsePos++;
 			}
 		}
@@ -213,7 +213,7 @@ public class kerpercep {
 				int y_j = j < posEntries ? 1 : -1;
 				sum += alpha[j] * y_j * K(Y.getRow(i), X.getRow(j));
 			}
-			if (y_i * sum <= 0) {
+			if (y_i * sum < 0) {
 				falseNeg++;
 			}
 		}
