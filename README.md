@@ -1,11 +1,8 @@
-machine-learning
-================
-
-Several machine learning techniques implemented for the Machine Learning course
+# machine-learning
+Several machine learning techniques implemented for CS165B: Machine Learning.
 
 
-Techniques Implemented
-----------------------
+##Contents
 
 * **mahadist**: Computes the [Mahalanobis distance](https://en.wikipedia.org/wiki/Mahalanobis_distance).
 * **linreg**: Linear regression.
